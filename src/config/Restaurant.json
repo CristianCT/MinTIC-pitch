@@ -1,0 +1,100 @@
+{
+    "name":"Nombre Restaurante",
+    "information": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis.", 
+    "products": [
+        {
+            "name": "Codorniz Escabechada",
+            "description": "Una receta para todo el año, no solo para la temporada de caza. ¡Toma nota y date un homenaje!",
+            "img": "assets/images/product_01.jpg",
+            "price": 20000,
+            "stars": 4,
+            "reviews": 52
+        },
+        {
+            "name": "Huevos con Boletus",
+            "description": "Un plato sencillo pero que siempre triunfa, aprovecha la temporada de setas y date el mejor homenaje.",
+            "img": "assets/images/product_02.jpg",
+            "price": 25000,
+            "stars": 5,
+            "reviews": 20
+        },
+        {
+            "name": "ROLLITOS DE LENGUADO",
+            "description": "Hoy nos damos un homenaje con esta deliciosa receta elaborada con uno de los pescados más saludables de nuestra gastronomía, el lenguado.",
+            "img": "assets/images/product_03.jpg",
+            "price": 30000,
+            "stars": 5,
+            "reviews": 25
+        },
+        {
+            "name": "RAVIOLIS RELLENOS",
+            "description": "Preparar la pasta de ravioli es más sencillo de lo que piensas, siguiendo nuestra receta y con un poco de paciencia tendrás un plato delicioso con la que sorprender a tus comensales.",
+            "img": "assets/images/product_04.jpg",
+            "price": 50000,
+            "stars": 5,
+            "reviews": 97
+        }
+    ],
+    "team": [
+        {
+            "name": "Jimmie Moreno",
+            "rol": "Cocinero",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.",
+            "img": "assets/images/team_01.jpg",
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "whatsapp": "https://www.whatsapp.com/?lang=es",
+            "instagram": "https://www.instagram.com/"
+        },
+        {
+            "name": "Beatrice Williamson",
+            "rol": "Domiciliario",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.",
+            "img": "assets/images/team_02.jpg",
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "whatsapp": "https://www.whatsapp.com/?lang=es",
+            "instagram": "https://www.instagram.com/"
+        },
+        {
+            "name": "Nicholas Stevens",
+            "rol": "Tendero",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.",
+            "img": "assets/images/team_03.jpg",
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "whatsapp": "https://www.whatsapp.com/?lang=es",
+            "instagram": "https://www.instagram.com/"
+        }
+        
+    ],
+    "location": "Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur. Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti.",
+    "facebook": "https://www.facebook.com/",
+    "twitter": "https://twitter.com/",
+    "instagram": "https://www.instagram.com/",
+    "youtube": "https://www.youtube.com/",
+    "whatsapp": "https://www.whatsapp.com/?lang=es",
+    "email": "ejemplo@correo.com",
+    "questions":[
+        {
+            "title":"¿Como puedo hacer mi pedido?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.         Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite."
+        },
+        {
+            "title":"¿Cual es el precio del domicilio?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.         Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite."
+        },
+        {
+            "title":"¿En cuanto tiempo llega el pedido?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.         Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite."
+        },
+        {
+            "title":"¿Quien me atiende?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.         Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite."
+        },
+        {
+            "title":"¿Cuanto debo pagar?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.         Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite."
+        }
+    ]
+}
