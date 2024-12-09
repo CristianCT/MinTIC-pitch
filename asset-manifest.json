@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.92363de8.js",
-    "index.html": "/index.html",
-    "main.92363de8.js.map": "/static/js/main.92363de8.js.map"
+    "main.js": "/React-Restaurante/static/js/main.92363de8.js",
+    "index.html": "/React-Restaurante/index.html",
+    "main.92363de8.js.map": "/React-Restaurante/static/js/main.92363de8.js.map"
   },
   "entrypoints": [
     "static/js/main.92363de8.js"
