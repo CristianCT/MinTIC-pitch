@@ -4,10 +4,9 @@ import Article from '../components/Article';
 import Footer from '../components/Footer';
 import Restaurant from '../config/Restaurant.json';
 
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Products extends Component {
-    render() {
+export default function Products()  {
         const articles = Restaurant.products.map((product,x) => {
             return(
               <Article article={ product } />
@@ -43,4 +42,3 @@ export default class Products extends Component {
             </div>
         )
     }
-}

@@ -4,13 +4,12 @@ import Footer from '../components/Footer';
 import Preload from '../components/Preload';
 import Restaurant from '../config/Restaurant.json';
 
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Home extends Component {
-  render() {
+export default function Home() {
     const articles = Restaurant.products.map((product,x) => {
       return(
-        <Article article={ product } />
+        <Article article={ product } key={x} />
       )
     });
     return (
@@ -58,4 +57,4 @@ export default class Home extends Component {
       </div>
     );
   }
-}
+

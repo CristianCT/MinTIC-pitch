@@ -3,10 +3,10 @@ import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import Restaurant from '../config/Restaurant.json';
 
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Contact extends Component {
-    render() {
+export default function Contact() {
+
         const accordion = Restaurant.questions.map((question,x) => {
 
             return (
@@ -114,4 +114,3 @@ export default class Contact extends Component {
             </div>
         )
     }
-}

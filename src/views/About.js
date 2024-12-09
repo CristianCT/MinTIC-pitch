@@ -4,13 +4,12 @@ import TeamMember from '../components/TeamMember';
 import Footer from '../components/Footer';
 import Restaurant from '../config/Restaurant.json';
 
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class About extends Component {
-    render() {
+export default function About() {
         const teamMembers = Restaurant.team.map((member, x) => {
             return (
-                <TeamMember member={ member } />
+                <TeamMember member={ member } key={x} />
             );
         });
         return (
@@ -79,4 +78,3 @@ export default class About extends Component {
             </div>
         )
     }
-}

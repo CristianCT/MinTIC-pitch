@@ -1,8 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import Restaurant from '../config/Restaurant.json';
 
-export default class Navigation extends Component {
-    render() {
+export default function Navigation(props) {
         return (
             <header>
                 <nav className="navbar navbar-expand-lg">
@@ -13,16 +12,16 @@ export default class Navigation extends Component {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarResponsive">
                             <ul className="navbar-nav ml-auto">
-                                <li className={`nav-item ${ this.props.homeState }`}>
+                                <li className={`nav-item ${ props.homeState }`}>
                                     <a className="nav-link" href="/">Inicio</a>
                                 </li> 
-                                <li className={`nav-item ${ this.props.productsState }`}>
+                                <li className={`nav-item ${ props.productsState }`}>
                                     <a className="nav-link" href="/products">Nuestras Recetas</a>
                                 </li>
-                                <li className={`nav-item ${ this.props.aboutState }`}>
+                                <li className={`nav-item ${ props.aboutState }`}>
                                     <a className="nav-link" href="/about">Acerca de Nosotros</a>
                                 </li>
-                                <li className={`nav-item ${ this.props.contactState }`}>
+                                <li className={`nav-item ${ props.contactState }`}>
                                     <a className="nav-link" href="/contact">Contactanos</a>
                                 </li>
                             </ul>
@@ -32,5 +31,4 @@ export default class Navigation extends Component {
             </header>
         );
     }
-}
 /* export default Navigation; */

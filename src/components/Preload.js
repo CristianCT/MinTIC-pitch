@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Preload extends Component {
-    render() {
+export default function Preload() {
         return (
             <div id="preloader">
                 <div className="jumper">
@@ -12,4 +11,3 @@ export default class Preload extends Component {
             </div>  
         );
     }
-}
